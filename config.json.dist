@@ -1,0 +1,16 @@
+{
+    "oauth2": {
+        "client": {
+            "id": "{key}",
+            "secret": "{secret}"
+        },
+        "auth": {
+            "tokenHost": "https://example.mindtouch.us",
+            "authorizePath": "/@app/auth/{authid}/token/authorize",
+            "tokenPath": "/@app/auth/{authid}/token/access.json"
+        }
+    },
+    "api": {
+        "host": "https://example.mindtouch.us"
+    }
+}

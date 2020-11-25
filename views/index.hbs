@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <h2>Authorization URLs</h2>
+    <ul>
+        <li><a href="{{href.authorize_unseated}}">User unseated authorization request without consent</a></li>
+        <li><a href="{{href.authorize_seated}}">User seated authorization request without consent (consent forced by identity provider service and "seated" scope)</a></li>
+        <li><a href="{{href.consent_unseated}}">User unseated authorization request with consent</a></li>
+        <li><a href="{{href.consent_seated}}">User seated authorization request with consent</a></li>
+    </ul>
+    <h2>OAuth 2.0 Client</h2>
+    <pre>{{oauth}}</pre>
+    <h2>Session</h2>
+    <pre>{{session}}</pre>
+    <h2>Current User Authorizations API Result</h2>
+    <pre>{{result}}</pre>
+</body>
