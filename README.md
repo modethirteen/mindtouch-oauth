@@ -4,7 +4,7 @@ Example application to demonstrate MindTouch OAuth API Token authorization.
 
 ## Getting Started
 
-1. [Create an OAuth API Token](https://success.mindtouch.com/Integrations/API/Authorization_Tokens/Get_an_OAuth_API_Token)
+1. [Create an OAuth API Token](https://success.mindtouch.com/Integrations/API/Authorization_Tokens/Get_an_OAuth_API_Token#Create_an_OAuth_API_Token)
 2. Use `yarn` to install dependencies
 3. Copy `config.json.dist` to `config.json`
 
